@@ -93,10 +93,12 @@ int main()
                 // Parse int from buffer
                 cmp = atoi(buffer);
                 
+                PWM_WriteCompare(cmp); // This is real time!!  
+                
                 // Spin motor:
-                if (cmp < 9250 && cmp > 8700) { // Manually tested range.
-                    PWM_WriteCompare(cmp); // This is real time!!    
-                }
+                //if (cmp < 9250 && cmp > 8700) { // Manually tested range.
+                //    PWM_WriteCompare(cmp); // This is real time!!    
+                //}
 
                 // Reset buffer
                 buffer_count = 0;

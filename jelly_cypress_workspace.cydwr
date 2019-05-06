@@ -216,10 +216,12 @@
       <Data key="c6e28d71-d2e5-4eaa-a22b-b821b4bae9d3" value="Clock_2" />
     </Group>
     <Group key="Pin">
+      <Data key="2f556916-22f4-4a04-96eb-432412bcf37c" value="Echo" />
       <Data key="6bb5c174-9a36-45bc-aa73-2008a0107a1f" value="Pin_4" />
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="Kill_Switch" />
       <Data key="9a2f0f31-228c-4c77-a42d-82355ec6b546" value="Tx_1" />
       <Data key="1425177d-0d0e-4468-8bcc-e638e5509a9b" value="Rx_1" />
+      <Data key="90618975-4973-48e3-b7c6-3cfd52e05cad" value="Trigger" />
       <Data key="ab34c8d8-1746-4280-bf09-cbd68f88c82d" value="Pin_2" />
       <Data key="b6494bb0-e978-4238-a06a-6abffd4a621b/77253644-2d29-412d-87e5-52485cd7a6d7" value="CharLCD_1_LCDPort" />
       <Data key="b6494bb0-e978-4238-a06a-6abffd4a621b/ed092b9b-d398-4703-be89-cebf998501f6" value="CharLCD_1_LCDPort" />
@@ -228,6 +230,11 @@
     </Group>
   </Group>
   <Group key="Pin2">
+    <Group key="2f556916-22f4-4a04-96eb-432412bcf37c">
+      <Group key="0">
+        <Data key="Port Format" value="1,6" />
+      </Group>
+    </Group>
     <Group key="6bb5c174-9a36-45bc-aa73-2008a0107a1f">
       <Group key="0">
         <Data key="Port Format" value="0,3" />
@@ -246,6 +253,11 @@
     <Group key="1425177d-0d0e-4468-8bcc-e638e5509a9b">
       <Group key="0">
         <Data key="Port Format" value="12,6" />
+      </Group>
+    </Group>
+    <Group key="90618975-4973-48e3-b7c6-3cfd52e05cad">
+      <Group key="0">
+        <Data key="Port Format" value="1,7" />
       </Group>
     </Group>
     <Group key="ab34c8d8-1746-4280-bf09-cbd68f88c82d">
@@ -310,6 +322,7 @@
       </Group>
     </Group>
     <Group key="UnAssigned Pins" />
+    <Group key="Unlocked Pins" />
   </Group>
   <Group key="System3">
     <Data key="CYDEV_BOOTLOADER_IO_COMP" value="CUSTOM_IO" />
